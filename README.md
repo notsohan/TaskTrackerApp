@@ -1,4 +1,4 @@
-# Task Tracker API
+# Task Tracker App
 
 A robust RESTful API built with Spring Boot for managing projects, to-do lists, and individual tasks. This application supports task prioritization, status tracking, and automatic progress calculation for task lists.
 
