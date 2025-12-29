@@ -182,6 +182,8 @@ long count = tasks.stream()
 return (double) count / tasks.size();
 ```
 
+**Beside this, I've taken ideas from his tutorial while gave my best to implement my own logic, so you might find the structure bit simillar!**
+
 ### Task Creation Rules
 When creating a task via `TaskServiceImpl`, the application enforces specific business rules:
 
