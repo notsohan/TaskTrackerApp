@@ -172,18 +172,6 @@ Represents an individual unit of work.
 }
 ```
 
-## ⚙️ Logic Highlights
-### Progress Calculation
-The following logic used in `TaskListMapperImpl` was taken from a **YT video of Devtiro**! It is there to determine the progress of a list based on closed tasks:
-```Java
-long count = tasks.stream()
-        .filter(task -> TaskStatus.CLOSED == task.getStatus())
-        .count();
-return (double) count / tasks.size();
-```
-
-**Beside this, I've taken ideas from his tutorial while gave my best to implement my own logic, so you might find the structure bit simillar!**
-
 ### Task Creation Rules
 When creating a task via `TaskServiceImpl`, the application enforces specific business rules:
 
